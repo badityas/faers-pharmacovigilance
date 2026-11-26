@@ -1,0 +1,28 @@
+string,n_mentions,known_to_be_inserted_drug
+metformin,62,True
+atorvastatin,61,True
+olanzapine,53,True
+omeprazole,40,True
+prilosec,32,True
+aspirin,29,True
+clopidogrel,29,True
+ramipril,22,True
+zyprexa,22,True
+insulin glargine,21,True
+lipitor,21,True
+furosemide,21,True
+warfarin,19,True
+lisinopril,19,True
+bisoprolol,18,True
+amlodipine,16,True
+glucophage,15,True
+acetaminophen,13,True
+pantoprazole,13,True
+tylenol,13,True
+plavix,11,True
+levothyroxine,9,True
+acetylcysteine,6,True
+prednisolone,5,True
+methotrexate,3,True
+lactic acid,2,False
+heparin,2,True

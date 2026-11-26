@@ -1,0 +1,24 @@
+task,group,hits_base,n_base,score_base,hits_impr,n_impr,score_impr
+DRUG recall (exact span),concomitant drug,186,186,1.0,186,186,1.0
+DRUG recall (exact span),suspect drug - brand,51,51,1.0,51,51,1.0
+DRUG recall (exact span),suspect drug - generic,95,95,1.0,95,95,1.0
+DRUG recall (exact span),suspect drug - synonym (paracetamol),0,4,0.0,0,4,0.0
+EVENT recall: any ADR entity overlaps,1 exact PT,85,85,1.0,85,85,1.0
+EVENT recall: any ADR entity overlaps,2 US spelling of PT,0,7,0.0,7,7,1.0
+EVENT recall: any ADR entity overlaps,3 PT + modifier,28,28,1.0,28,28,1.0
+EVENT recall: any ADR entity overlaps,4 synonym / lay term / abbreviation,11,37,0.2972972972972973,11,37,0.2972972972972973
+EVENT recall: any ADR entity overlaps,ALL,124,157,0.7898089171974523,131,157,0.8343949044585988
+EVENT recall: exact span,1 exact PT,85,85,1.0,85,85,1.0
+EVENT recall: exact span,2 US spelling of PT,0,7,0.0,7,7,1.0
+EVENT recall: exact span,3 PT + modifier,0,28,0.0,0,28,0.0
+EVENT recall: exact span,4 synonym / lay term / abbreviation,0,37,0.0,0,37,0.0
+EVENT recall: exact span,ALL,85,157,0.5414012738853503,92,157,0.5859872611464968
+EVENT recall: target PT recovered,1 exact PT,85,85,1.0,85,85,1.0
+EVENT recall: target PT recovered,2 US spelling of PT,0,7,0.0,7,7,1.0
+EVENT recall: target PT recovered,3 PT + modifier,28,28,1.0,28,28,1.0
+EVENT recall: target PT recovered,4 synonym / lay term / abbreviation,0,37,0.0,0,37,0.0
+EVENT recall: target PT recovered,ALL,113,157,0.7197452229299363,120,157,0.7643312101910829
+ROLE: ADR entities in no annotated slot,(template wording / dictionary noise),0,320,0.0,0,327,0.0
+ROLE: ADR precision (vs gold slots),entities in annotated slots,309,309,1.0,316,316,1.0
+ROLE: ADR recall (vs gold slots),entities in annotated slots,309,309,1.0,316,316,1.0
+ROLE: coarse accuracy ADR vs not-ADR,entities in annotated slots,599,599,1.0,606,606,1.0

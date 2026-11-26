@@ -1,0 +1,12 @@
+id,drug,adr,expected,predicted,ok,conf,cue,text
+S0,metformin,lactic acidosis,causal-strong,causal-strong,True,0.95,attributed to,A woman on metformin developed lactic acidosis. The event was attributed to the drug.
+S1,omeprazole,hypomagnesaemia,causal-weak,causal-weak,True,0.5,could not be excluded,"The patient took omeprazole for reflux. She later had hypomagnesaemia, a relationship with the drug could not be excluded."
+S2,olanzapine,neuroleptic malignant syndrome,causal-strong,co-occurrence,False,0.3,,Olanzapine was started in March. Neuroleptic malignant syndrome occurred and resolved after the drug was stopped.
+S3,atorvastatin,myositis,unrelated,unrelated,True,0.05,unrelated,He had myositis. This was unrelated to atorvastatin and was due to a viral illness.
+S4,atorvastatin,myositis,unrelated,unrelated,True,0.05,not considered related,Atorvastatin was prescribed. Myositis was not considered related to the medication.
+S5,clopidogrel,bleeding,co-occurrence,co-occurrence,True,0.25,,Clopidogrel was given after stenting. Bleeding was noted at the access site.
+S6,paracetamol,hepatic failure,causal-strong,causal-weak,False,0.55,suspected,The doctor suspected that paracetamol overdose caused hepatic failure.
+S7,acetaminophen,hepatic failure,causal-weak,causal-weak,True,0.55,possibly,Hepatic failure was possibly linked to acetaminophen.
+S8,metformin,lactic acidosis,none,co-occurrence,False,0.25,,Metformin was continued. No lactic acidosis was observed.
+S9,omeprazole,nausea,causal-strong,co-occurrence,False,0.3,,"Following omeprazole, the patient experienced nausea. Nausea abated on dechallenge."
+S10,metformin,lactic acidosis,causal-strong,causal-strong,True,0.95,attributed to,Olanzapine and metformin were co-prescribed. Lactic acidosis was attributed to metformin.

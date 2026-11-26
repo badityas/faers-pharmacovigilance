@@ -1,0 +1,11 @@
+section,method,TP,FP,FN,precision,recall,F1,accuracy
+document-level,1 sentence co-occurrence,39.0,0.0,81.0,1.0,0.325,0.4905660377358491,0.46
+document-level,2 abstract co-occurrence,119.0,19.0,1.0,0.8623188405797102,0.9916666666666667,0.9224806201550387,0.8666666666666667
+document-level,3 rule-based (this work),119.0,0.0,1.0,1.0,0.9916666666666667,0.99581589958159,0.9933333333333333
+target pair recall,1 exact PT,69.0,,0.0,,1.0,,
+target pair recall,2 US spelling of PT,5.0,,0.0,,1.0,,
+target pair recall,3 PT + modifier,21.0,,0.0,,1.0,,
+target pair recall,4 synonym / lay term / abbreviation,2.0,,23.0,,0.08,,
+target pair recall,ALL,97.0,,23.0,,0.8083333333333333,,
+confidence,ROC-AUC related vs not,,,,,,0.9931944444444445,
+strength,3-class accuracy,,,,,,,0.9933333333333333

@@ -1,0 +1,51 @@
+{
+  "Lactic acidosis": [
+    "lactic acid accumulation",
+    "lactic acidosis",
+    "metformin-associated lactic acidosis",
+    "severe lactic acidosis"
+  ],
+  "Acute hepatic failure": [
+    "acute hepatic failure",
+    "acute liver failure",
+    "fulminant hepatic failure"
+  ],
+  "Neuroleptic malignant syndrome": [
+    "NMS",
+    "malignant neuroleptic syndrome",
+    "neuroleptic malignant syndrome"
+  ],
+  "Immune-mediated myositis": [
+    "immune-mediated myositis",
+    "immune-mediated necrotizing myopathy",
+    "statin-associated autoimmune myopathy"
+  ],
+  "Hypomagnesaemia": [
+    "hypomagnesaemia",
+    "hypomagnesemia",
+    "low serum magnesium",
+    "severe hypomagnesaemia"
+  ],
+  "Procedural haemorrhage": [
+    "peri-procedural haemorrhage",
+    "post-procedural bleeding",
+    "procedural haemorrhage"
+  ],
+  "Diarrhoea": [
+    "diarrhea",
+    "diarrhoea",
+    "loose stools"
+  ],
+  "Headache": [
+    "headache",
+    "mild headache"
+  ],
+  "Vomiting": [
+    "emesis",
+    "vomiting"
+  ],
+  "Nausea": [
+    "mild nausea",
+    "nausea"
+  ]
+}

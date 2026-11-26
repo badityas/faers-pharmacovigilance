@@ -17,3 +17,4 @@ venv/
 .env
 .env.*
 Human Transcriptional Regulatory Networks Presentation.key
+*.zip

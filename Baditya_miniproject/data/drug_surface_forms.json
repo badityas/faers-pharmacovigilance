@@ -1,0 +1,27 @@
+{
+  "METFORMIN": [
+    "Glucophage",
+    "metformin"
+  ],
+  "ACETAMINOPHEN": [
+    "Tylenol",
+    "acetaminophen",
+    "paracetamol"
+  ],
+  "OLANZAPINE": [
+    "Zyprexa",
+    "olanzapine"
+  ],
+  "ATORVASTATIN": [
+    "Lipitor",
+    "atorvastatin"
+  ],
+  "OMEPRAZOLE": [
+    "Prilosec",
+    "omeprazole"
+  ],
+  "CLOPIDOGREL": [
+    "Plavix",
+    "clopidogrel"
+  ]
+}

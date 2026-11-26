@@ -1,0 +1,20 @@
+sentence,expected_entity,expected_role,extracted,predicted_role,status
+Metformin-associated lactic acidosis is a rare complication in patients with renal impairment.,lactic acidosis,ADR,lactic acidosis,ADR,correct
+Metformin-associated lactic acidosis is a rare complication in patients with renal impairment.,renal impairment,NOT_ADR,renal impairment,ADR,WRONG ROLE
+Atorvastatin rarely causes rhabdomyolysis in patients receiving high doses.,rhabdomyolysis,ADR,rhabdomyolysis,ADR,correct
+The patient has a history of hypertension and type 2 diabetes mellitus.,hypertension,NOT_ADR,hypertension,ADR,WRONG ROLE
+The patient has a history of hypertension and type 2 diabetes mellitus.,diabetes,NOT_ADR,type 2 diabetes mellitus,ADR,WRONG ROLE
+Omeprazole is indicated for gastro-oesophageal reflux disease.,reflux,NOT_ADR,(missed),,MISSED
+Olanzapine therapy was complicated by neuroleptic malignant syndrome.,neuroleptic malignant syndrome,ADR,neuroleptic malignant syndrome,ADR,correct
+"Liver enzymes normalised after stopping acetaminophen, supporting a role in the hepatotoxicity.",hepatotoxicity,ADR,hepatotoxicity,MANAGEMENT,WRONG ROLE
+She developed severe hypomagnesemia after two years of proton pump inhibitor use.,hypomagnesemia,ADR,hypomagnesemia,ADR,correct
+Patients with schizophrenia treated with olanzapine are at risk of weight gain.,schizophrenia,NOT_ADR,schizophrenia,MANAGEMENT,correct
+Patients with schizophrenia treated with olanzapine are at risk of weight gain.,weight gain,ADR,(missed),,MISSED
+Myalgia resolved after atorvastatin was discontinued.,myalgia,ADR,myalgia,MANAGEMENT,WRONG ROLE
+Sertraline was started for major depression.,depression,NOT_ADR,major depression,MANAGEMENT,correct
+Clopidogrel has been linked to haemorrhage after percutaneous coronary intervention.,haemorrhage,ADR,haemorrhage,ADR,correct
+Dapagliflozin treatment was complicated by euglycaemic diabetic ketoacidosis.,ketoacidosis,ADR,euglycaemic diabetic ketoacidosis,ADR,correct
+The elevated lactate was attributed to septic shock rather than the drug.,shock,NOT_ADR,septic shock,CAUSE,correct
+"The patient presented with nausea, vomiting and dizziness two days after starting the tablets.",nausea,ADR,nausea,ADR,correct
+"The patient presented with nausea, vomiting and dizziness two days after starting the tablets.",vomiting,ADR,vomiting,ADR,correct
+"The patient presented with nausea, vomiting and dizziness two days after starting the tablets.",dizziness,ADR,dizziness,ADR,correct

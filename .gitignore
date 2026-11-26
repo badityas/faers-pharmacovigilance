@@ -1,0 +1,19 @@
+# Raw FAERS datasets
+faers_ascii_2025q3/
+DRUG25Q3.txt
+
+# macOS files
+.DS_Store
+__MACOSX/
+._*
+
+# Python and Jupyter files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Credentials
+.env
+.env.*
+Human Transcriptional Regulatory Networks Presentation.key
